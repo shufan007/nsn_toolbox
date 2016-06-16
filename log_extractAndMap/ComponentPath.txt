@@ -1,0 +1,67 @@
+
+Component number: [* 0 *]
+ EComponentId_LtcomBase
+   sub component 0 : SS_LocalTelecom
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_LocalTelecom\SS_LocalTelecom
+
+Component number: [* 1 *]
+ EComponentId_CommonDspBase
+   sub component 0 : CP_Startup
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_CommonDsp\CP_Startup\CP_Startup
+   sub component 1 : CP_Common
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_CommonDsp\CP_Common\CP_Common
+   sub component 2 : CP_RunTimeLog
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_CommonDsp\CP_RunTimeLog\CP_RunTimeLog
+
+Component number: [* 2 *]
+ EComponentId_FpBase
+   sub component 0 : CP_TupFrameProtocol
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_CommonDsp\CP_TupFrameProtocol\CP_TupFrameProtocol
+
+Component number: [* 3 *]
+ EComponentId_TxBase
+   sub component 0 : SS_W1plTx
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_W1plTx\SS_W1plTx
+
+Component number: [* 4 *]
+ EComponentId_CodecL1traBase
+   sub component 0 : CP_L1Transmission_Nyquist
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_WcdmaEngineDrivers\CP_L1Transmission_Nyquist\CP_L1Transmission_Nyquist
+
+Component number: [* 5 *]
+ EComponentId_CodecCommonBase
+   sub component 0 : CP_CodecCommon
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_Codec\CP_CodecCommon\CP_CodecCommon
+
+Component number: [* 6 *]
+ EComponentId_CodecEncBase
+   sub component 0 : CP_EncBcpDch
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_Codec\CP_EncBcpDch\CP_EncBcpDch
+   sub component 1 : CP_Encoder
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_Codec\CP_Encoder\CP_Encoder
+   sub component 2 : CP_EncoderLibrary
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_Codec\CP_EncoderLibrary\CP_EncoderLibrary
+
+Component number: [* 7 *]
+ EComponentId_CodecHsEncBase
+   sub component 0 : CP_EncBcpHsdpa
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_Codec\CP_EncBcpHsdpa\CP_EncBcpHsdpa
+   sub component 1 : CP_EncHsdpaL1Lib
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_Codec\CP_EncHsdpaL1Lib\CP_EncHsdpaL1Lib
+
+Component number: [* 8 *]
+ EComponentId_CodecDecBase
+   sub component 0 : CP_Decoder
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_Codec\CP_Decoder\CP_Decoder
+   sub component 1 : CP_DecoderLibrary
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_Codec\CP_DecoderLibrary\CP_DecoderLibrary
+
+Component number: [* 9 *]
+ EComponentId_CodecRmBase
+   sub component 0 : CP_CodecResourceManager
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_Codec\CP_CodecResourceManager\CP_CodecResourceManager
+
+Component number: [* 10 *]
+ EComponentId_CodecBrowser
+   sub component 0 : CP_CodecBrowser
+        path:  D:\userdata\shufan\LRC_Trunk\C_Application\SC_UP\DSP\SS_Codec\CP_CodecBrowser\CP_CodecBrowser
