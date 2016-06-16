@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # ##############################################################################
-#       Function:       Spalit and parse Codec Log from snapshot buffer
+#       Function:       Alarm Faults Parser from snapshot buffer
 #       Author:         Fan, Shuangxi (NSN - CN/Hangzhou)
 #       draft:          2014-10-14 
 #       modify(split):  2015-11-20
@@ -118,11 +118,11 @@ if __name__ == '__main__':
         print'''
    *************************** Usage: ***************************
     -input:            
-         -[1] FaultMessageParser: input file, .bin file or directory with .bin files
+         -[1] alarmFaultsParser: input file, .bin file or directory with .bin files
                the .bin file in current path or full path            
    @example:
-        FaultMessageParser.py xxx.bin
-        FaultMessageParser.py RtlDumpBin
+        alarmFaultsParser.py xxx.bin
+        alarmFaultsParser.py RtlDumpBin
    - output:
         - Out put Location: the same path as input file
         - Parsed Log file is "xxx_ParsedLog.txt"            
