@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <property>
+      <name>CombinationNum_1UE</name>
+      <value>1</value>
+    </property>
+
+    <properties name='Combination1_1UE'>
+        <properties name='User1'>
+            <property>
+                <name>SetOfEdpdchs</name>
+                <value>ESetOfEDpdchs_Ver2_None</value>
+            </property>
+            <property type='integer'>
+                <name>TBSize</name>
+                <value>0</value>
+            </property>
+            <property type='integer'>
+                <name>Tti</name>
+                <value>0</value>
+            </property>
+            <property type='integer'>
+              <name>HarqParam</name>
+              <value>0</value>
+            </property>
+        </properties>
+    </properties>
+</properties>
