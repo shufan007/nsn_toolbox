@@ -16,7 +16,7 @@ import re
 from utils.common import *
 
 # ##################################################################
-infoFile          = "README"
+infoFile          = "README.md"
 fileType          = [".mcap"]
 pcap_header_len   = 24 # unit: byte
 outFile_suffixStr = 'filterData'
@@ -66,7 +66,7 @@ def mcapFilterByFilterRule(capFile, filterRule, outDir):
         else:
             valid_flag = 1
     except:
-        print " ** Error: In calling tshark API, please turn 'README' for help.\n"        
+        print " ** Error: In calling tshark API, please turn 'README.md' for help.\n"        
         exit(1)
 
     return valid_flag
@@ -154,7 +154,7 @@ if __name__ == '__main__':
     if  len(sys.argv)==2 and sys.argv[1].upper().find('HELP')>=0:
         print'''
    *************************** Usage: ***************************
-   # Set Filter_Rule in 'README -> [Initiation]' as the filter condition
+   # Set Filter_Rule in 'README.md -> [Initiation]' as the filter condition
         -input: 
              -[1] packet file or packet file dir:
        @example:
