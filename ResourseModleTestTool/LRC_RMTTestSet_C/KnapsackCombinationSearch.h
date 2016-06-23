@@ -11,9 +11,7 @@
 ***************************************************/
 #define TOP_LIST_SIZE    60     // set your TOP_LIST_SIZE
 
-#define MaxCaseKinds      17*8   // set your MaxCaseKinds
-
-//#define MaxCaseKinds      100   // set your MaxCaseKinds
+#define MaxCaseKinds      100   // set your MaxCaseKinds
 #define MaxCaseNum       100   // set your MaxCaseNum
 
 /***************************************************/
