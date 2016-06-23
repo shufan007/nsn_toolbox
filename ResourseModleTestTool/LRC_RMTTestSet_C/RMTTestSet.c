@@ -9,6 +9,7 @@
 #include<assert.h>
 #include<time.h>
 #include "RMTTestSet.h"
+#include "KnapsackCombinationSearch.h"
 
 /***************************************************
  Global Defination
@@ -285,7 +286,7 @@ void TestSetGeneratorMainFlow()
     {
         DataInit(&knapsack, &topList); 
 
-        CombinationSearch(&knapsack, &topList);
+        KnapsackCombinationSearch(&knapsack, &topList);
 
         TopListPrint(&topList);
     } 

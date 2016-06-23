@@ -1,13 +1,13 @@
 
-objects = LRC_RMTTestSet_DCHType.o SearchAlgorithm.o 
+objects = RMTTestSet.o KnapsackCombinationSearch.o 
 RMTTestSetGenerator: $(objects)
 	cc -o RMTTestSetGenerator $(objects)
-SearchAlgorithm.o: SearchAlgorithm.c RMTTestSet.h
-	cc -c SearchAlgorithm.c
-LRC_RMTTestSet_DCHType.o: LRC_RMTTestSet_DCHType.c RMTTestSet.h
-	cc -c LRC_RMTTestSet_DCHType.c
+KnapsackCombinationSearch.o: KnapsackCombinationSearch.c KnapsackCombinationSearch.h
+	cc -c KnapsackCombinationSearch.c
+RMTTestSet.o: RMTTestSet.c RMTTestSet.h KnapsackCombinationSearch.h
+	cc -c RMTTestSet.c
 
-#gcc -O2 SearchAlgorithm.c LRC_RMTTestSet_DCHType.c -o RMTTestSetGenerator
+#gcc -O2 KnapsackCombinationSearch.c RMTTestSet.c -o RMTTestSetGenerator
 
 ## Clean built files
 clean:

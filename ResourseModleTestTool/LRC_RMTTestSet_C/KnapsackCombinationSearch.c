@@ -1,10 +1,10 @@
 /************************************************************************************
-       Function:       Searching Algorithm for Resource Model Test set Generator
+       Function:       Searching Algorithm for Knapsack Combination Search
        Author:         Fan, Shuangxi (Nokia - CN/Hangzhou)
        History:
        
        0.8           (2015 -3 -20)   Implement the algorithm
-       1.0           (2015 -5 -7 )    Resconsitution, 
+       1.0           (2015 -5 -7 )    Reconsitution, 
  ************************************************************************************/
 //#pragma once
 
@@ -12,7 +12,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<assert.h>
-#include "RMTTestSet.h"
+#include "KnapsackCombinationSearch.h"
 
 /***************************************************
  Global Definations
@@ -142,7 +142,7 @@ AllocInfo_T      allocInfo;
 * Output: topList
 **********************************************************************************/
 
-void CombinationSearch(const Knapsack_T* knapsack, TopList_T* topList) 
+void KnapsackCombinationSearch(const Knapsack_T* knapsack, TopList_T* topList) 
 {
     assert(knapsack != NULL);
     assert(topList != NULL);
